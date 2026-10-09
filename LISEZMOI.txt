@@ -1,0 +1,12 @@
+Place ici le fichier supabase.js (lib officielle @supabase/supabase-js v2, build UMD).
+
+Comment le récupérer (une seule fois, sur ton PC Windows) :
+1. Ouvre https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2 dans Chrome
+2. Ctrl+S -> enregistre sous le nom : supabase.js
+3. Copie-le dans :
+   - app/src/main/assets/www/vendor/supabase.js  (projet Android)
+   - vendor/supabase.js                          (repo GitHub Pages)
+
+Tant que ce fichier est absent, l'app bascule automatiquement sur le CDN
+(internet requis au premier lancement, comme avant). Une fois le fichier
+en place, Supabase fonctionne 100 % hors-ligne au demarrage.
